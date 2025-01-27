@@ -9,6 +9,7 @@ export default [
   ...blitzPlugin.configs.recommended(),
   {
     rules: {
+      'linebreak-style': ['error', 'unix'], // <-- 新增此行
       '@blitz/catch-error-name': 'off',
       '@typescript-eslint/no-this-alias': 'off',
       '@typescript-eslint/no-empty-object-type': 'off',
